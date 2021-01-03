@@ -21,6 +21,13 @@ Small caveat, you have to open a handle to LSASS anyway to dupe the handle, but 
 
 bigger caveat, only X64 is supported (for now)
 
+## defences
+* This project will open a handle to every single userland process that is running, this is due to the inherit nature of how handle duplication works.
+You can only figure out the type and access of a handle programmatically, once you've obtained the handle. This should already be a major IoC 
+
+* This project uses sharpdump and sharpkatz under the hood, so any IoC of those projects will automatically be an IoC for this project as well. Yeay IoC inheritance!
+
+
 
 ```
    _____ __                     __  __                ____
