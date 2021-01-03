@@ -1,5 +1,7 @@
 # SharpHandler
 
+The tool is now live, but still in **beta**, I would not recommend using this in opsec heavy engagements for now :P you'll look like a fool if this tool flunks and you burn your opsec ;) 
+
 Inspired by this [blogpost][1] from [@skelsec](https://twitter.com/SkelSec) <br>
 For an in-depth explination of what this project is, please read Skelsec's excellent post! :) 
 <br>
