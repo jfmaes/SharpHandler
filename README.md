@@ -14,6 +14,10 @@ They are the real MVP's here :)
 This project reuses open handles to lsass to parse or minidump lsass, therefore you don't need to use your own lsass handle to interact with it. 
 I'm planning on getting both the P/Invoke and the D/invoke project here. Right now I'm only showing the P/Invoked version as D/invoke is making life slightly more complex. 
 
+## Compile instructions
+As I've been asked this question a lot, here is a mini tutorial on how to compile this project :) 
+In visual studio, right click the Solution in Solution explorer and click Restore NuGet Packages. 
+also change Any CPU to x64 you can do this by clicking the dropdown arrow next to Any CPU, click configuration manager a new window will pop up, click the dropdown on platform select new and then select x64. 
 
 
 ## caveats
