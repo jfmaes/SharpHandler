@@ -15,7 +15,7 @@ namespace SharpDump
             {
                 if (File.Exists(outFile))
                 {
-                    Console.WriteLine("[X] Output file '{0}' already exists, removing", outFile);
+                    Console.WriteLine("\n[X] Output file '{0}' already exists, removing", outFile);
                     File.Delete(outFile);
                 }
 
@@ -30,7 +30,7 @@ namespace SharpDump
             }
             catch (Exception ex)
             {
-                Console.WriteLine("[X] Exception while compressing file: {0}", ex.Message);
+                Console.WriteLine("\n[X] Exception while compressing file: {0}", ex.Message);
             }
         }
 
@@ -49,7 +49,7 @@ namespace SharpDump
             // if successful
             if (bRet)
             {
-                Console.WriteLine("[+] Dump successful!");
+                Console.WriteLine("\n[+] Dump successful!");
                 if (compress)
                 {
                     string zipFile = dumpFile + ".gz";
