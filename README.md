@@ -19,9 +19,17 @@ As I've been asked this question a lot, here is a mini tutorial on how to compil
 In visual studio, right click the Solution in Solution explorer and click Restore NuGet Packages. 
 also change Any CPU to x64 you can do this by clicking the dropdown arrow next to Any CPU, click configuration manager a new window will pop up, click the dropdown on platform select new and then select x64. 
 
+**IMPORTANT for D/Invoke!!!**
+<br>
+For D/invoke's version of SharpHandler you will need to turn "optimize code" OFF. 
+you can do this by right clicking SharpHandler -> Properties -> Build -> uncheck Optmize code.
+if you don't do this, the program WILL crash.
+
+
 
 ## caveats
 Small caveat, you have to open a handle to LSASS anyway to dupe the handle, but the access level is less than you need than to parse lsass or dump it. 
+You could skip over lsass using the --skip-lsass option in the D/invoke edition, still need to make the change in the P/invoke edition. 
 
 bigger caveat, only X64 is supported (for now)
 
