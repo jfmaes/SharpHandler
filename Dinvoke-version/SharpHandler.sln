@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpHandler", "SharpHandler.csproj", "{11DC83C6-8186-4887-B228-9DC4FD281A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Debug|x64.ActiveCfg = Debug|x64
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Debug|x64.Build.0 = Debug|x64
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Release|x64.ActiveCfg = Release|x64
+		{11DC83C6-8186-4887-B228-9DC4FD281A23}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8433BDCC-7829-4160-83EF-B7B6925FA2DD}
+	EndGlobalSection
+EndGlobal
