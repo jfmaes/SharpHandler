@@ -62,7 +62,7 @@ namespace SharpDump
                     Console.WriteLine(String.Format("[*] Deleting {0}", dumpFile));
                     File.Delete(dumpFile);
                 }
-                Console.WriteLine("\n[+] Dumping completed. Rename file to \"debug{0}.gz\" to decompress.", targetProcessId);
+                Console.WriteLine("\n[+] Dumping completed.");
 
             }
             else
