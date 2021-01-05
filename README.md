@@ -12,7 +12,6 @@ This code has been made possible due to:
 They are the real MVP's here :) 
 
 This project reuses open handles to lsass to parse or minidump lsass, therefore you don't need to use your own lsass handle to interact with it. 
-I'm planning on getting both the P/Invoke and the D/invoke project here. Right now I'm only showing the P/Invoked version as D/invoke is making life slightly more complex. 
 
 ## Compile instructions
 As I've been asked this question a lot, here is a mini tutorial on how to compile this project :) 
